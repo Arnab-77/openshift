@@ -1,2 +1,6 @@
 oc create deployment webapp --image=nginx --dry-run=client -o yaml
 oc explain deployment
+oc create -f webapp.yaml
+oc get all
+oc get pods -w
+oc get rs --> to show replica set
