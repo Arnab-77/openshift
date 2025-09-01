@@ -7,3 +7,4 @@ oc get rs --> to show replica set
 oc describe pod podname
 oc delete deployment webapp
 oc new-app httpd
+oc edit deployment httpd
