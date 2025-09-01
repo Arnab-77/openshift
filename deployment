@@ -1,1 +1,2 @@
 oc create deployment webapp --image=nginx --dry-run=client -o yaml
+oc explain deployment
