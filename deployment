@@ -4,3 +4,4 @@ oc create -f webapp.yaml
 oc get all
 oc get pods -w
 oc get rs --> to show replica set
+oc describe pod podname
